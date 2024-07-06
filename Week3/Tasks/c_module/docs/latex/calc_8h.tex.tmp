@@ -1,0 +1,99 @@
+\hypertarget{calc_8h}{}\doxysection{calc.\+h File Reference}
+\label{calc_8h}\index{calc.h@{calc.h}}
+
+
+this file implement calculator basic functions  
+
+
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+Include dependency graph for calc.\+h\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint64\+\_\+t \mbox{\hyperlink{calc_8h_a155dcfd4eaee25674e6943e853d94121}{add}} (uint32\+\_\+t num1, uint32\+\_\+t num2)
+\begin{DoxyCompactList}\small\item\em add this function to add two numbers \end{DoxyCompactList}\item 
+int64\+\_\+t \mbox{\hyperlink{calc_8h_a238eb927202d9ec59cf91d6be4317589}{sub}} (int32\+\_\+t num1, int32\+\_\+t num2)
+\begin{DoxyCompactList}\small\item\em sub this function to subtract two numbers \end{DoxyCompactList}\item 
+uint64\+\_\+t \mbox{\hyperlink{calc_8h_a36bc3a0d940b1299d38f7a1ddb912475}{mul}} (uint32\+\_\+t num1, uint32\+\_\+t num2)
+\begin{DoxyCompactList}\small\item\em mul this function to multiply two numbers \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this file implement calculator basic functions 
+
+\begin{DoxyAuthor}{Author}
+Mohamed Ibrahem (\href{mailto:mohamed.ibrahem628@gmail.com}{\texttt{ mohamed.\+ibrahem628@gmail.\+com}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2024-\/06-\/26
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2024 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{calc_8h_a155dcfd4eaee25674e6943e853d94121}\label{calc_8h_a155dcfd4eaee25674e6943e853d94121}} 
+\index{calc.h@{calc.h}!add@{add}}
+\index{add@{add}!calc.h@{calc.h}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily uint64\+\_\+t add (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{num1,  }\item[{uint32\+\_\+t}]{num2 }\end{DoxyParamCaption})}
+
+
+
+add this function to add two numbers 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num1} & first number in uint32\+\_\+t \\
+\hline
+{\em num2} & second number in uint32\+\_\+t \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint64\+\_\+t it returns the sum of num1 and num2 
+\end{DoxyReturn}
+\mbox{\Hypertarget{calc_8h_a36bc3a0d940b1299d38f7a1ddb912475}\label{calc_8h_a36bc3a0d940b1299d38f7a1ddb912475}} 
+\index{calc.h@{calc.h}!mul@{mul}}
+\index{mul@{mul}!calc.h@{calc.h}}
+\doxysubsubsection{\texorpdfstring{mul()}{mul()}}
+{\footnotesize\ttfamily uint64\+\_\+t mul (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{num1,  }\item[{uint32\+\_\+t}]{num2 }\end{DoxyParamCaption})}
+
+
+
+mul this function to multiply two numbers 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num1} & first number in uint32\+\_\+t \\
+\hline
+{\em num2} & second number in uint32\+\_\+t \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+uint64\+\_\+t it returns the multiplication of num1 and num2 
+\end{DoxyReturn}
+\mbox{\Hypertarget{calc_8h_a238eb927202d9ec59cf91d6be4317589}\label{calc_8h_a238eb927202d9ec59cf91d6be4317589}} 
+\index{calc.h@{calc.h}!sub@{sub}}
+\index{sub@{sub}!calc.h@{calc.h}}
+\doxysubsubsection{\texorpdfstring{sub()}{sub()}}
+{\footnotesize\ttfamily int64\+\_\+t sub (\begin{DoxyParamCaption}\item[{int32\+\_\+t}]{num1,  }\item[{int32\+\_\+t}]{num2 }\end{DoxyParamCaption})}
+
+
+
+sub this function to subtract two numbers 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num1} & first number in int32\+\_\+t \\
+\hline
+{\em num2} & second number in int32\+\_\+t \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int64\+\_\+t it returns the subtraction of num1 and num2 
+\end{DoxyReturn}

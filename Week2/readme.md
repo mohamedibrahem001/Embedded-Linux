@@ -14,3 +14,7 @@
       python file_name.py  
    ```
 ---
+3. if you are using gui apps use : 
+   ```sh
+   xvfb-run python3 /home/mohamed-ibrahem/Desktop/EmbeddedLinux/Embedded-Linux/Week2/lec_prac.py
+   ```
